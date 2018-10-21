@@ -1,2 +1,2 @@
 # QtCalculator
-A simple calculator created with Qt Creator
+A simple calculator created with Qt Creator.
