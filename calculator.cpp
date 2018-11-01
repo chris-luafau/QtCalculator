@@ -1,12 +1,12 @@
 #include "calculator.h"
 #include "ui_calculator.h"
 
-double calc_val = 0.0;
-double mem_val = 0.0;
-bool div_trigger = false;           // Keeping track of the last operation
-bool mult_trigger = false;
-bool add_trigger = false;
-bool sub_trigger = false;
+static double calc_val = 0.0;
+static double mem_val = 0.0;
+static bool div_trigger = false;           // Keeping track of the last operation
+static bool mult_trigger = false;
+static bool add_trigger = false;
+static bool sub_trigger = false;
 
 Calculator::Calculator(QWidget *parent) :
     QMainWindow(parent),
